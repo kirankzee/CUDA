@@ -55,6 +55,24 @@ For operations with large data sets, the CPU implementation is limited to a smal
 
 This allows you to directly observe the performance benefits of GPU acceleration compared to traditional CPU processing.
 
+CUDA Accelerator	NVIDIA GeForce RTX 4060 Laptop GPU				
+CUDA Device	NVIDIA GeForce RTX 4060 Laptop GPU				
+Total Memory	8187 MB				
+
+
+| **Example**                               | **Details**                                    | **GPU Time** | **CPU Time**     | **Speedup** | **Results Match** |
+| ----------------------------------------- | ---------------------------------------------- | ------------ | ---------------- | ----------- | ----------------- |
+|                                           |                                                |              |                  |             |                   |
+| **Vector Addition**                       | 1,000,000 elements                             | 2ms          | 1ms              | 0.50x       | ✅ True            |
+| **Scalar Multiplication**                 | 1,000,000 elements by 2.5                      | 1ms          | 1ms              | 1.00x       | ✅ True            |
+| **Matrix Multiplication**                 | 1000x1000 matrices (Results mismatch at [0,0]) | 26ms         | 393ms (500x500)  | 120.92x     | ❌ False           |
+| **Matrix Multiplication (Shared Memory)** | 1000x1000 matrices (Optimized vs. Standard)    | 40ms         | N/A              | 0.90x       | ✅ True            |
+| **Convolution (Image Processing)**        | 1024x1024 image with 5x5 kernel (Mismatch)     | 2ms          | 96ms (Estimated) | 48.00x      | ❌ False           |
+| **Parallel Execution**                    | Sequential execution                           | 3ms          | N/A              | N/A         | N/A               |
+| **Parallel Reduction**                    | Sum of 1,000,000 elements (Mismatch)           | 3ms          | 1ms              | 0.33x       | ❌ False           |
+| **Bitonic Sort**                          | 1,048,576 elements                             | 6ms          | 541ms            | 90.17x      | ✅ True            |
+
+
 ## Notes
 
 - ILGPU supports not only CUDA but also OpenCL and CPU acceleration
