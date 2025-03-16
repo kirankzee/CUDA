@@ -1,0 +1,14 @@
+C:\Users\kiran\OneDrive\Desktop\CUDAWorking\Hybridizer\bin\Debug\net8.0\Hybridizer.exe
+C:\Users\kiran\OneDrive\Desktop\CUDAWorking\Hybridizer\bin\Debug\net8.0\Hybridizer.deps.json
+C:\Users\kiran\OneDrive\Desktop\CUDAWorking\Hybridizer\bin\Debug\net8.0\Hybridizer.runtimeconfig.json
+C:\Users\kiran\OneDrive\Desktop\CUDAWorking\Hybridizer\bin\Debug\net8.0\Hybridizer.dll
+C:\Users\kiran\OneDrive\Desktop\CUDAWorking\Hybridizer\bin\Debug\net8.0\Hybridizer.pdb
+C:\Users\kiran\OneDrive\Desktop\CUDAWorking\Hybridizer\obj\Debug\net8.0\Hybridizer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kiran\OneDrive\Desktop\CUDAWorking\Hybridizer\obj\Debug\net8.0\Hybridizer.AssemblyInfoInputs.cache
+C:\Users\kiran\OneDrive\Desktop\CUDAWorking\Hybridizer\obj\Debug\net8.0\Hybridizer.AssemblyInfo.cs
+C:\Users\kiran\OneDrive\Desktop\CUDAWorking\Hybridizer\obj\Debug\net8.0\Hybridizer.csproj.CoreCompileInputs.cache
+C:\Users\kiran\OneDrive\Desktop\CUDAWorking\Hybridizer\obj\Debug\net8.0\Hybridizer.dll
+C:\Users\kiran\OneDrive\Desktop\CUDAWorking\Hybridizer\obj\Debug\net8.0\refint\Hybridizer.dll
+C:\Users\kiran\OneDrive\Desktop\CUDAWorking\Hybridizer\obj\Debug\net8.0\Hybridizer.pdb
+C:\Users\kiran\OneDrive\Desktop\CUDAWorking\Hybridizer\obj\Debug\net8.0\Hybridizer.genruntimeconfig.cache
+C:\Users\kiran\OneDrive\Desktop\CUDAWorking\Hybridizer\obj\Debug\net8.0\ref\Hybridizer.dll
