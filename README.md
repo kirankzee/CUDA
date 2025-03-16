@@ -1,5 +1,4 @@
-# CUDA
-C# CUDA High Performance Programming
+# CUDA C# CUDA High Performance Programming
 High-Performance Computing (HPC) refers to the use of powerful computing resources to solve complex problems that require significant computational power. It is commonly used in fields such as scientific research, engineering simulations, AI/ML training, and financial modeling. Here are key aspects of HPC:
 
 1. HPC Architecture
@@ -67,7 +66,9 @@ Parallel File Systems (Lustre, GPFS, BeeGFS): Optimized for large-scale data acc
 |                                 | **CUDA-Powered gRPC Streaming**                      | Process large real-time streaming data efficiently.     | Implement **CUDA-powered parallel processing in gRPC streaming services**.  |
 
 
-### **HPC Performance Comparison: GeForce RTX 5090 vs. High-End CPU (Threadripper 7995WX / Xeon 8490H)**  
+
+
+### 🚀 HPC Performance Comparison: GeForce RTX 5090 vs. High-End CPU (Threadripper 7995WX / Xeon 8490H)**  
 
 | **Feature**             | **GeForce RTX 5090 (GPU)**         | **AMD Threadripper 7995WX / Intel Xeon 8490H (CPU)**  |
 |------------------------|---------------------------------|-------------------------------------------------|
@@ -83,7 +84,9 @@ Parallel File Systems (Lustre, GPFS, BeeGFS): Optimized for large-scale data acc
 
 ---
 
-### **HPC Workload Performance Insights**
+
+
+## 🚀 HPC Workload Performance Insights**
 1. **AI & Deep Learning**:  
    - **RTX 5090 wins**: AI model training, inferencing, and neural networks scale efficiently with Tensor Cores.  
    - CPUs are used for AI inference but lag behind in training speed.  
